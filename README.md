@@ -13,10 +13,16 @@ Los participantes del proyecto Valbalt somos:
 
 Con este proyecto esperamos aprender gran cantidad de conocimientos acerca de robótica, programación, diseño gráfico. Además destancando el sentido ingenieril que permite llevar a cabo gracias a la posibilidad que nos ofrece el estar en contacto desde el primer minuto con todos sus ámbitos de desarrollo.
 
+ 
+[Presupuesto, materiales, proceso...](https://drive.google.com/file/d/0B7BvqTLFQEXqS05Bd3JsUkVnczI3UHJzSGgxZXRyem5Ed2tN/view?usp=sharing)
+
+[Video final](https://www.youtube.com/watch?v=kyxBNqyyXaI) 
 
 ![alt text](http://3.bp.blogspot.com/-DFcVBFUEUv8/WLQe19_9GyI/AAAAAAAAB3g/UeO_jqbPLXAO7NIYHrI5UgFxZ-758xZZQCK4B/s1600/avers2.png)
 
 Edit: Ganamos el desafio. Autor del artículo: Javier Uzquiza
+
+
 
 Por fin llegó el día de la competición, los nervios estaban a flor de piel, sin embargo, a pesar de no haber dormido la noche anterior, por preparar nuestro robot, nos sentíamos llenos de emoción y de orgullo por representar a nuestro pueblo en el Asti Challenge.
 
