@@ -4,7 +4,7 @@ import sys
 import tty
 import termios
 import time
-rr = RRB3(5, 4)
+rr = RRB3(5,4)
 
 #Mapeo de teclas
 DELANTE = "w"
@@ -45,7 +45,7 @@ try:
         LEER = readkey()
         if LEER == DELANTE:
             print("Arranca")
-            rr.forward()
+            rr.set_motors(1,0,1,0)
 	    while lee2!=ATRAS:
 		lee2 = readkey()
                 if lee2 == IZQUIERDA:
@@ -57,7 +57,7 @@ try:
                     rr.set_motors(1,0,0.4,0)
                     time.sleep(0.3)
 		    lee2=""
-		    rr.forward()
+		    rr.set_motors(1,0,1,0)
             print("Stop")
             lee2=""
 	    rr.stop()
@@ -66,12 +66,12 @@ try:
             rr.reverse()
             while lee2!=DELANTE:
                 lee2 = readkey()
-                if lee2 == IZQUIERDA:
+                if lee2 == DERECHA:
                     rr.set_motors(0.4,1,1,1)
                     time.sleep(0.3)
                     lee2=""
                     rr.reverse()
-                if lee2 == DERECHA:
+                if lee2 == IZQUIERDA:
                     rr.set_motors(1,1,0.4,1)
                     time.sleep(0.3)
                     lee2=""

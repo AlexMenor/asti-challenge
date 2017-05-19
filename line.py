@@ -19,13 +19,13 @@ GPIO.setup(4, GPIO.OUT)
 try:
 	while True:
 		if GPIO.input(derecha) == GPIO.LOW and GPIO.input(izquierda) == GPIO.LOW:
-				rr.set_motors(0.2,0,0.2,0)
+				rr.set_motors(0.6,0,0.6,0)
 		elif GPIO.input(derecha) == GPIO.HIGH:
 				while GPIO.input(derecha) == GPIO.HIGH:
-					rr.set_motors(0,0,0.15,0)
+					rr.set_motors(0,0,0.6,0)
 		elif GPIO.input(izquierda) == GPIO.HIGH:
 				while GPIO.input(izquierda) == GPIO.HIGH:
-					rr.set_motors(0.15,0,0,0)
+					rr.set_motors(0.6,0,0,0)
         	elif GPIO.input(izquierda) == GPIO.HIGH and GPIO.input(derecha) == GPIO.HIGH:
            			 pass
 #Sale del programa con CTRL + C
