@@ -66,12 +66,12 @@ try:
             rr.reverse()
             while lee2!=DELANTE:
                 lee2 = readkey()
-                if lee2 == DERECHA:
+                if lee2 == IZQUIERDA:
                     rr.set_motors(0.4,1,1,1)
                     time.sleep(0.3)
                     lee2=""
                     rr.reverse()
-                if lee2 == IZQUIERDA:
+                if lee2 == DERECHA:
                     rr.set_motors(1,1,0.4,1)
                     time.sleep(0.3)
                     lee2=""
