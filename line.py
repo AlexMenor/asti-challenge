@@ -5,8 +5,8 @@ import time
 #Voltaje de la placa
 rr = RRB3(5, 4)
 #Puertos GPIO de los seguidores de linea
-izquierda = 2
-derecha = 3
+izquierda = 3
+derecha = 2
 #Configuramos los puertos GPIO a utilizar
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(izquierda, GPIO.IN, pull_up_down=GPIO.PUD_UP)
